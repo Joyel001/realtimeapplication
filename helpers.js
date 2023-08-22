@@ -2,7 +2,7 @@ let MySqli = require('mysqli');
 
 let conn = new MySqli({
     host: 'localhost',
-    port: '5500', // Corrected typo here
+    port: '', // Corrected typo here
     user: 'root',
     password: '123456',
     db: 'mega_shop'
